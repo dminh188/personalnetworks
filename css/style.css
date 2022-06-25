@@ -28,6 +28,12 @@ body{
 	transform: scale(1.265);
 }
 
+@media screen and (max-width:600px) { 
+	.card{
+		transform: scale(0.9);
+	}
+}
+
 .card-image img{
 	width: 100%;
 	height: 160px;
